@@ -1,6 +1,12 @@
 /* RESET: Browsers add space above and below headings and paragraphs.
  * We turn that off so every bit of space on your card is space YOU
  * chose with margin and padding. */
+ div{
+    background-color: rgba(122, 241, 241, 0.696);
+  }
+  h1{ font: size 20px;
+    font:color black;}
+    
 p,
 h1,
 h2,
@@ -23,8 +29,5 @@ h6 {
 /* Your box model card styles go here!
  * Layout with margin, padding, border, width, and height only
  * (no flexbox or grid). */
-.card h1 {
-  /* Demo style -- remove me and write your own */
-  color: red;
-  margin-left: 1.5in;
+
 }
