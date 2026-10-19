@@ -5,10 +5,30 @@
     background-color: rgba(122, 241, 241, 0.696);
   }
   h1{ font: size 20px;
-    font:color black;}
+    font:color black;
+  font-family: "Fuzzy Bubbles", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+background-color: rgb(253, 167, 217);
+width:167pt;
+margin-inline:auto;
+padding:10px;
+border: 2px solid rgb(50, 96, 136);
+}
     
-p,
-h1,
+h2{ font:color #326088;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+background-color:rgba(255, 255, 0, 0.747);
+margin: 20px;}
+
+h3{ font-family: "Fuzzy Bubbles", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
 h2,
 h3,
 h4,
