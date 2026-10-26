@@ -23,17 +23,35 @@ h6 {
 /* Your flexbox card styles go here! */
 .flex {
   display: flex;
-  justify-content: end;
+  justify-content: center;
+  align-items: center;
+  height: 1.5in;
+  flex-direction: column;
+
+
+}
+
+h1 {
+  font-family: "Berkshire Swash", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Ruluko", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .card-front {
   background-image: url(./images/IMG_1987.jpeg);
   background-size: cover;
+  background-position: center;
 
 }
 
 .card-back {
-  background-color: rgb(163, 210, 210);
+  background-color: rgb(141, 254, 248);
 }
 
 /* Honors: styles for each card size, for example:
