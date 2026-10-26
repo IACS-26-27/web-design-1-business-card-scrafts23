@@ -21,9 +21,16 @@ h6 {
 */
 
 /* Your flexbox card styles go here! */
+.flex {
+  display: flex;
+  justify-content: start;
+}
+
 .card-front {
+
   background-image: url(IMG_1987.jpeg);
   background-size: cover;
+
 }
 
 /* Honors: styles for each card size, for example:
