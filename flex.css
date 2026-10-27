@@ -23,36 +23,54 @@ h6 {
 /* Your flexbox card styles go here! */
 .flex {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 1.5in;
-  flex-direction: column;
-
-
-}
-
-h1 {
-  font-family: "Berkshire Swash", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-h2 {
-  font-family: "Ruluko", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  justify-content: start;
 }
 
 .card-front {
-  background-image: url(./images/IMG_1987.jpeg);
+  background-image: url(images/IMG_1987.jpeg);
   background-size: cover;
   background-position: center;
 
 }
 
-.card-back {
-  background-color: rgb(141, 254, 248);
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  column-gap: 100px;
+  height: 2in;
 }
+
+.card-back {
+  background-color: rgb(128, 247, 247);
+
+}
+
+.back {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+h1 {
+  font-family: "Crafty Girls", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Cantarell", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+  font-family: "Crafty Girls", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 /* Honors: styles for each card size, for example:
 .square .card-front {
