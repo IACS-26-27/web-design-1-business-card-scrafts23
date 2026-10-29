@@ -42,6 +42,13 @@ h6 {
   height: 2in;
 }
 
+.collum {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
 .card-back {
   background-color: rgb(128, 247, 247);
 
