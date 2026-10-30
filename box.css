@@ -1,8 +1,6 @@
 /* RESET: Browsers add space above and below headings and paragraphs.
  * We turn that off so every bit of space on your card is space YOU
  * chose with margin and padding. */
-p,
-h1,
 h2,
 h3,
 h4,
@@ -10,6 +8,71 @@ h5,
 h6 {
   margin-block: 0;
 }
+
+div {
+  background-color: rgba(122, 241, 241, 0.696);
+}
+
+h1 {
+  font: size 20px;
+  font: color black;
+  font-family: "Fuzzy Bubbles", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  background-color: rgb(253, 167, 217);
+  width: 167pt;
+  margin-inline: auto;
+  margin-top: 10px;
+  padding: 5px;
+  border: 2px solid rgb(50, 96, 136);
+}
+
+h2 {
+  font: color #326088;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: 30%;
+  font-weight: 300;
+  font-style: normal;
+  background-color: rgba(20, 164, 169, 0.747);
+  margin-inline: auto;
+  padding: 4px;
+  width: 180pt;
+  border: 2px solid rgb(50, 96, 136);
+}
+
+h3 {
+  font-family: "Fuzzy Bubbles", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgb(253, 167, 217);
+  border: 1px solid rgb(0, 96, 136);
+  width: 100px;
+  margin-left: 200px;
+  margin-top: 5px;
+  padding: 1px;
+}
+
+h4 {
+  font-family: "Fuzzy Bubbles", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgb(253, 167, 217);
+  border: 1px solid rgb(0, 96, 136);
+  width: 100px;
+  margin-left: 30px;
+  padding: 2px;
+  margin-bottom: 1px;
+}
+
+p {
+  font: color #326088;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: 30%;
+  font-weight: 300;
+  font-style: normal;
+  margin: 40px;
+}
+
 
 /* WIREFRAME: Uncomment this to see the outline of every box on your
  * card. (An outline takes up no space, so it won't change your layout.)
@@ -23,8 +86,18 @@ h6 {
 /* Your box model card styles go here!
  * Layout with margin, padding, border, width, and height only
  * (no flexbox or grid). */
-.card h1 {
-  /* Demo style -- remove me and write your own */
-  color: red;
-  margin-left: 1.5in;
+
+
+
+.img {
+
+  position: absolute;
+  bottom: -10px;
+  right: 0px;
+  transform: rotate(90);
+
+}
+
+.card-back {
+  overflow: hidden;
 }

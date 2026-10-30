@@ -21,7 +21,81 @@ h6 {
 */
 
 /* Your flexbox card styles go here! */
+.flex {
+  display: flex;
+  justify-content: start;
+}
+
 .card-front {
+  background-image: url(images/IMG_1987.jpeg);
+  background-size: cover;
+  background-position: center;
+
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  column-gap: 100px;
+  height: 2in;
+}
+
+.collum {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-back {
+  background-color: rgb(128, 247, 247);
+  overflow: hidden;
+}
+
+.back {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+h1 {
+  font-family: "Crafty Girls", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Cantarell", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+  font-family: "Crafty Girls", cursive;
+  font-weight: 500;
+  font-style: normal;
+
+}
+
+.bye {
+  transform: rotate(25deg);
+}
+
+.hi {
+  display: flex;
+  flex-direction: column;
+
+}
+
+p2 {
+  font-family: "Cantarell", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: x-small;
+  overflow-wrap: break-word;
+  width: 50px;
 }
 
 /* Honors: styles for each card size, for example:
